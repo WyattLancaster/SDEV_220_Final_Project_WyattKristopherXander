@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Feeding America</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href ="/donate"> Donate</a></li>
+                <li><a href ="/register"> Register</a></li>
+                <li><a href ="/login" > Login</a></li>
+                <li><a href ="/logout">Logout</a></li>
+            </ul>
+        </nav>
+
+        <div class="container" >
+            <img src="{% static 'image/feedingamerica.jpg' %}">
+
+            <div class="text">
+                <p>Feeding America is a non-profit organization that is dedicated to ending hunger in the United States. The organization was founded in 1979 and operates a nationwide network of food banks and food distribution centers. Feeding America's mission is to provide food to people in need and work to end hunger in America.<br><br>
+
+                    Feeding America works with a network of more than 200 food banks and 60,000 partner organizations, including food pantries, soup kitchens, and other charitable organizations. Through its network, Feeding America provides food assistance to more than 40 million people each year. The organization's programs and services include food distribution, food recovery, and nutrition education.<br><br>
+                    
+                    In addition to its direct food distribution programs, Feeding America is also committed to addressing the root causes of hunger in America. The organization advocates for policies and programs that support food security and address poverty and inequality. Feeding America also works to raise awareness about the issue of hunger in the United States and the impact it has on individuals, families, and communities. By working to address both the immediate needs of those facing hunger and the underlying causes of food insecurity, Feeding America is helping to create a brighter, more equitable future for all Americans.
+            </div>
+        </div>
+        
+    </body>
+</html>
